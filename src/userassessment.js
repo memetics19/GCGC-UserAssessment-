@@ -1,5 +1,6 @@
 import React,{Component} from "react";
-import {Table} from "reactstrap";
+import {Table,Col} from "reactstrap";
+// import {Col} from 'reactstrap';
 // import BootstrapTable from 'react-bootstrap-table-next';
 // import Axios from "axios";
 // import Students from './AllRecordsList';
@@ -80,7 +81,13 @@ class UserAssessment extends Component {
         </tr>
         </tbody>
         </Table>
+        <div className="form-group" style={{"text-align":"-webkit-center"}}>
+       <button type="submit" className="btn btn-danger btn-block"style={{"backgroundColor":"#CC5200" ,"width": "100px","text-align": "center"}}>Add new entry</button>
+   </div> 
+
    </div>
+ 
+
     );
   }
 }
